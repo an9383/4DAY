@@ -15,9 +15,9 @@
           border: 1px solid #ededed; background-color:blue;
           transition: background-size .5s ease;
 }
-#wrap .product:nth-child(1) .imgbox { background: url(img/1.jpg); }
-#wrap .product:nth-child(2) .imgbox { background: url(img/2.jpg); }
-#wrap .product:nth-child(3) .imgbox { background: url(img/3.jpg); }
+#wrap .product:nth-child(1) .imgbox { background: url(../img/1.jpg); }
+#wrap .product:nth-child(2) .imgbox { background: url(../img/2.jpg); }
+#wrap .product:nth-child(3) .imgbox { background: url(../img/3.jpg); }
 .imgbox:hover { background-size: auto 110%;}
 
 .imgbox::after { content:''; position: absolute; left: 0; top:0; right:0; bottom:0;
